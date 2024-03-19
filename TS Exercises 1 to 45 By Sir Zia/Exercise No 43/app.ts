@@ -7,7 +7,7 @@ let magicians : string[] = ['Harry Houdini','Criss Angel','David Blaine','Derren
         for (let magic of magicians) 
         console.log(magic)
     }
-
+ 
 
     function make_great(magician:string[]){
         let updated_magicians:string[] = []
@@ -15,7 +15,7 @@ let magicians : string[] = ['Harry Houdini','Criss Angel','David Blaine','Derren
             updated_magicians.push("The Great " + magician[i])    ;
         }
         return updated_magicians
-    }
+    } ;
 
     let copyArray = make_great(magicians) ;
     
